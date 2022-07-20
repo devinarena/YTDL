@@ -14,16 +14,17 @@ Its just a python script. Requires Python3 and pytube.
 
 ### Running in prompt mode (continually enter)
 
-`python downloader.py`
+    python downloader.py
 Starts in prompt mode, will prompt for URLs and download them sequentially until a blank line is entered.
 
 
 ### Running in prompt mode (audio)
-`python downloader.py -a`
+    python downloader.py -a
 Same prompting mode as before, but will only download the audio files.
 
 
 ### Command Line Arguments
 For more advanced usage, you can specify command line arguments.
-`python downloader.py [URL1] [URL2]... -a ...[URLn-1] [URLn]`
+
+    python downloader.py [URL1] [URL2]... -a ...[URLn-1] [URLn]
 As expected, URLs entered before -a will be downloaded as video files, and those after will be downloaded as audio files.
